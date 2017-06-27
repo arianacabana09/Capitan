@@ -6,14 +6,18 @@ body{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  width: 100%;
   div{
-    div{
-      width: 100%;
+    div.col-3{
+      box-sizing: border-box;
+      float: left;
       ul{
         padding: 0;
         margin: 0;
         color: $color-text;
+        li{
+          padding: 5px;
+          margin: 10px 0;
+        }
       }
     }
   }
@@ -33,4 +37,8 @@ div{
 
 .tc{
   color: $color-text;
+}
+
+.center{
+  text-align: center;
 }

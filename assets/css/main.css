@@ -37,14 +37,17 @@
 body {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
-  width: 100%; }
-  body div div {
-    width: 100%; }
-    body div div ul {
+  padding: 0; }
+  body div div.col-3 {
+    box-sizing: border-box;
+    float: left; }
+    body div div.col-3 ul {
       padding: 0;
       margin: 0;
       color: white; }
+      body div div.col-3 ul li {
+        padding: 5px;
+        margin: 10px 0; }
 
 .c1 {
   background-color: #eba621; }
@@ -57,5 +60,8 @@ div {
 
 .tc {
   color: white; }
+
+.center {
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

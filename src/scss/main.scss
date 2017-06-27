@@ -3,11 +3,13 @@
 @import "colors";
 
 body{
-  width: 100%;
-  padding: 0;
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+  width: 100%;
   div{
     div{
+      width: 100%;
       ul{
         padding: 0;
         margin: 0;
@@ -27,4 +29,8 @@ body{
 
 div{
   display: inline-block;
+}
+
+.tc{
+  color: $color-text;
 }
